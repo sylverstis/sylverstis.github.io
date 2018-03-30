@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+<meta charset=utf-8 />
+<title>
+		L&#39;entropie de SylverT
+</title>
+<meta name="author" content="SylverT" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://sylverstis.github.io/RSSfeed.xml" rel="alternate" type="application/rss+xml" title="News for L&#39;entropie de SylverT" />
+<link rel="canonical" href="https://sylverstis.github.io" />
+<link rel="icon" href="https://sylverstis.github.io/themes/Minival/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="https://sylverstis.github.io/themes/Minival/base.css" media="screen" />
+<link href="https://fonts.googleapis.com/css?family=Alegreya:400,700|Raleway" rel="stylesheet"> 
+<meta name="description" content="Lieu d&#39;expiration." />
+</head>
+
+<body>
+<div class="container">
+			<header>
+<h1><a href="https://sylverstis.github.io/index.html">L'entropie de SylverT</a></h1>
+<p>Blog de SylverT.</p>
+<nav>
+<ul>
+<a href="https://sylverstis.github.io/index.html"><li>Accueil</li></a>
+<a href="#" id="bt1"><li class="menu withSubmenu">Categories</li></a>
+<a href="#" id="bt2"><li class="menu withSubmenu">Pages</li></a>
+<a type="application/rss+xml" href="https://sylverstis.github.io/RSSfeed.xml"><li>RSS</li></a>
+</ul>
+<ul class="submenu" id="categories">→
+<a style="background:rgb(230, 230, 230);" class="tag" href="https://sylverstis.github.io/divers/index.html">Divers</a>
+<a style="background:rgb(233, 206, 206);" class="tag" href="https://sylverstis.github.io/documentation/index.html">Documentation</a>
+</ul>
+<ul class="submenu" id="pages">→
+<a class="tag" href="https://sylverstis.github.io/a-propos.html">À propos</a>
+<a class="tag" href="https://sylverstis.github.io/archives.html">Archives</a>
+</ul>
+</nav>
+</header>
+
+<main>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+<header>
+<h2><a href="https://sylverstis.github.io/publier-github.html">Publier son blog sur Github</a></h2>
+</header>
+<div class="metas">
+<time itemprop="dateCreated" datetime="2017-12-31T22:05:00.000000+00:00">31 décembre 2017</time>
+						<a class="tag" style="background:rgb(233, 206, 206)" href="https://sylverstis.github.io/documentation/index.html">Documentation</a>
+
+</div>
+<div itemprop="about"><p>Voyons ici comment mettre en ligne son blog <em>Narval</em> sur les serveurs de <em>Github</em>.</p></div>
+</article>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+<header>
+<h2><a href="https://sylverstis.github.io/documentation-complete.html">Documentation complète</a></h2>
+</header>
+<div class="metas">
+<time itemprop="dateCreated" datetime="2017-07-06T22:32:00.000000+00:00">06 juillet 2017</time>
+						<a class="tag" style="background:rgb(233, 206, 206)" href="https://sylverstis.github.io/documentation/index.html">Documentation</a>
+
+</div>
+</article>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+<header>
+<h2><a href="https://sylverstis.github.io/theme-minival.html">Thème <em>Minival</em></a></h2>
+</header>
+<div class="metas">
+<time itemprop="dateCreated" datetime="2017-07-05T09:13:00.000000+00:00">05 juillet 2017</time>
+						<a class="tag" style="background:rgb(230, 230, 230)" href="https://sylverstis.github.io/divers/index.html">Divers</a>
+
+</div>
+<div itemprop="about"><p>Cette page permet de voir comment le thème <em>Minival</em> affiche le contenu.</p></div>
+</article>
+<article itemscope itemtype="http://schema.org/BlogPosting">
+<header>
+<h2><a href="https://sylverstis.github.io/guide-rapide.html">Guide rapide</a></h2>
+</header>
+<div class="metas">
+<time itemprop="dateCreated" datetime="2017-07-01T19:12:00.000000+00:00">01 juillet 2017</time>
+						<a class="tag" style="background:rgb(233, 206, 206)" href="https://sylverstis.github.io/documentation/index.html">Documentation</a>
+
+</div>
+<div itemprop="about"><p>Guide de démarrage rapide de <em>Narval</em>, un générateur de blog statique. Une documentation plus complète est également disponible sur ce blog si besoin.</p></div>
+</article>
+</main>
+			<div class=pagination>
+	Page 1 / 1.
+</div>
+
+			<footer>
+<p>
+<small>
+			Blog de SylverT, généré avec <em><a href="https://github.com/narvalblog/narval">Narval</a></em>.
+<br>
+			Dernière modification le 30 mars 2018.
+</small>
+</p>
+</footer>
+<script>
+	const
+		categories = document.getElementById('categories'),
+		pages = document.getElementById('pages'),
+		bt1 = document.getElementById('bt1'),
+		bt2 = document.getElementById('bt2')
+
+	function showCategories() {
+		categories.style.display = 'block'
+		pages.style.display = 'none'
+	}
+	function showPages() {
+		pages.style.display = 'block'
+		categories.style.display = 'none'
+	}
+	bt1.addEventListener('click', function(e) {
+		e.preventDefault()
+		showCategories()
+	}, false)
+	bt2.addEventListener('click', function(e) {
+		e.preventDefault()
+		showPages()
+	}, false)
+	bt1.addEventListener('touchstart', function(e) {
+		e.preventDefault()
+		showCategories()
+	}, false)
+	bt2.addEventListener('touchstart', function(e) {
+		e.preventDefault()
+		showPages()
+	}, false)
+</script>
+
+</div>
+</body>
+</html>

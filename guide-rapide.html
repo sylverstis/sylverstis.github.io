@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+<meta charset=utf-8 />
+<title>
+		L&#39;entropie de SylverT
+</title>
+<meta name="author" content="SylverT" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://sylverstis.github.io/RSSfeed.xml" rel="alternate" type="application/rss+xml" title="News for L&#39;entropie de SylverT" />
+<link rel="canonical" href="https://sylverstis.github.io" />
+<link rel="icon" href="https://sylverstis.github.io/themes/Minival/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="https://sylverstis.github.io/themes/Minival/base.css" media="screen" />
+<link href="https://fonts.googleapis.com/css?family=Alegreya:400,700|Raleway" rel="stylesheet"> 
+<meta name="description" content="Guide de démarrage rapide de Narval, un générateur de blog statique." />
+</head>
+
+<body>
+<div class="container">
+			<header>
+<h1><a href="https://sylverstis.github.io/index.html">L'entropie de SylverT</a></h1>
+<p>Blog de SylverT.</p>
+<nav>
+<ul>
+<a href="https://sylverstis.github.io/index.html"><li>Accueil</li></a>
+<a href="#" id="bt1"><li class="menu withSubmenu">Categories</li></a>
+<a href="#" id="bt2"><li class="menu withSubmenu">Pages</li></a>
+<a type="application/rss+xml" href="https://sylverstis.github.io/RSSfeed.xml"><li>RSS</li></a>
+</ul>
+<ul class="submenu" id="categories">→
+<a style="background:rgb(230, 230, 230);" class="tag" href="https://sylverstis.github.io/divers/index.html">Divers</a>
+<a style="background:rgb(233, 206, 206);" class="tag" href="https://sylverstis.github.io/documentation/index.html">Documentation</a>
+</ul>
+<ul class="submenu" id="pages">→
+<a class="tag" href="https://sylverstis.github.io/a-propos.html">À propos</a>
+<a class="tag" href="https://sylverstis.github.io/archives.html">Archives</a>
+</ul>
+</nav>
+</header>
+
+<article itemscope itemtype="http://schema.org/BlogPosting">
+<header><h1>Guide rapide</h1></header>
+<div class="metas">
+<time itemprop="dateCreated" datetime="2017-07-01T19:12:00.000000+00:00">01 juillet 2017</time>
+					<a class="tag" style="background:rgb(233, 206, 206)" href="https://sylverstis.github.io/documentation/index.html">Documentation</a>
+
+</div>
+<div itemprop="about"><p>Guide de démarrage rapide de <em>Narval</em>, un générateur de blog statique. Une documentation plus complète est également disponible sur ce blog si besoin.</p></div>
+<div class="content"><h2>1. Prérequis</h2>
+
+<p>Disposer de&nbsp;:</p>
+<ul>
+	<li><a class="external" href="https://www.python.org/downloads/">Python 3</a> (ou version supérieure);</li>
+	<li><a class="external" href="https://pypi.python.org/pypi/Tenjin/">Tenjin</a>;</li>
+	<li><a class="external" href="https://git-scm.com/book/fr/v1/D%C3%A9marrage-rapide-Installation-de-Git">Git</a> (facultatif si tu souhaites ni installer <em>Narval</em> en ligne de commande, ni héberger ton futur blog gratuitement sur <em>Github Pages</em>).</li>
+</ul>
+<p>Pour installer <em>Tenjin</em>, tape dans un terminal&nbsp;:
+<pre><code>sudo easy_install Tenjin</code></pre>
+<p>Pour <strong>vérifier la présence</strong> de <em>Python</em> et <em>Git</em> dans ton ordinateur, tape dans un terminal&nbsp;:</p>
+<pre><code>python -V</code></pre>
+<p>Et&nbsp;:</p>
+<pre><code>git --version</code></pre>
+<p>Si un numéro de version apparaît pour chacune des commandes, c’est que tu peux passer à l’étape 2. Vérifie tout de même bien que la version de Python est supérieure ou égale à 3.</p>
+
+<h2>2. Télécharger Narval</h2>
+
+<p><em>Narval</em> peut s’installer de deux façons.</p>
+<p><strong>En lignes de commande&nbsp;:</strong></p>
+<pre><code>git clone https://github.com/narvalblog/narval</code></pre>
+<p><strong>Depuis Github&nbsp;:</strong></p>
+<p>En suivant <a class="external" href="https://github.com/narvalblog/narval">ce lien</a>, puis en cliquant sur «&nbsp;Clone or download&nbsp;» (bouton vert en haut de page) et enfin en cliquant sur «&nbsp;Download ZIP&nbsp;». Une fois l’archive téléchargée, il faut la décompresser.</p>
+
+<h2>3. Une petite démonstration&nbsp;?</h2>
+
+<p>Rien de tel que de générer le blog de démonstration soi-même pour comprendre comment ça marche. Ouvre le terminal à la racine du dossier téléchargé à l’étape 2 et tape ceci&nbsp;:</p>
+<pre><code>python3 build.py</code></pre>
+<p>Deux dossiers sont créés dans le dossier&nbsp;: <span class="path">_NARVAL/</span> et <span class="path">_NARVAL-local/</span>. Le premier contient le blog à publier sur Internet. Le second contient le blog consultable sur ton propre ordinateur. Ce bon narval, à travers le terminal, te propose de consulter le blog. Appuie sur la touche <kbd>Entrée</kbd>&nbsp;: le blog s’ouvre dans ton navigateur Internet.</p>
+
+<h2>4. Contenu et configuration</h2>
+
+<p>Singer&nbsp;! Le fonctionnement de <em>Narval</em>, grâce au blog de démonstration fourni, est aisément compréhensible par mimétisme. En somme, <strong>tu peux t’inspirer du blog de démonstration pour faire ton propre blog</strong>, sans lire la <a href="#">documentation complète</a>.</p><p>La plupart des fichiers du dossier <span class="path">content/</span> s'ouvre à l'aide d'un éditeur de texte pour pouvoir être lus correctement et modifiés. Le bloc-note par défaut peut suffire, mais je te recommande <em>Atom</em>, <em>Geany</em> ou encore <em>Brackets</em> qui sont tous les trois gratuits si tu ne sais pas lequel choisir.</p>
+<p>Le dossier <span class="path">content/</span> rassemble le contenu de ton blog. Regarde un peu dans les sous-dossiers, ouvre les fichiers et compare avec ce que tu vois dans ton navigateur (étape 3). Tu comprendras rapidement bien des choses. Tu peux alors commencer à créer des articles et tes pages, changer la configuration du blog, etc. Si tu es un peu perdu ou que tu veux aller plus loin, voici un petit récapitulatif de ce qui se trame dans le dossier <span class="path">content/</span>&nbsp;:</p>
+<ul>
+<li><span class="path">CONFIG</span> permet de <strong>configurer le blog</strong>. C’est dans ce fichier que l’on peut par exemple changer le titre, le thème ou le nombre d’articles par page, spécifier une URL, mettre un identifiant <em>Disqus</em> pour afficher un système de commentaires, etc;</li>
+<li><span class="path">attachments/</span> regroupe toutes les pièces jointes à tes articles et à tes pages (images, sons, vidéos, fichiers à télécharger, etc.);</li>
+<li><span class="path">pages/</span> regroupe les pages du blog et, optionnellement, un fichier <span class="path">CATEGORIES</span> et un fichier <span class="path">AUTHORS</span>;</li>
+<li><span class="path">posts/</span> regroupe les articles du blog et, optionnellement, un fichier <span class="path">CATEGORIES</span> et un fichier <span class="path">AUTHORS</span>;</li>
+<li><span class="path">templates/</span> regroupe tous les modèles de pages du blog. Ces modèles sont écrits avec un mélange de HTML et de Python. Ils permettent de définir ce que le blog affichera et comment;</li>
+<li><span class="path">themes/</span> contient le thème du blog, son style graphique (feuilles de styles CSS, images du thèmes, etc.);</li>
+</ul>
+<p>Les modèles de pages sont fortement liés à un thème. Les thèmes proposés avec <em>Narval</em> sont tous compatibles avec les fichiers du dossier <span class="path">templates/</span>.</p>
+<p>La <a href="#">documentation complète</a> peut également t’être utile.</p>
+
+<h2>5. Aller, vas-y&nbsp;!</h2>
+
+<p>Une fois ton blog bien configuré, bien beau et avec du contenu que tu trouves intéressant à partager, tu fais à nouveau un petit&nbsp;:</p>
+<pre><code>python3 build.py</code></pre>
+<p>Si des erreurs s’affichent, tu les corriges et tu réessayes. Sinon, tu peux y aller&nbsp;! Tu héberges où tu veux le contenu de <span class="path">_NARVAL/</span>, mais je te propose ci-dessous deux solutions gratuites qui me plaisent bien ♥.</p>
+<p><strong><em>Github Pages</em>&nbsp;:</strong></p>
+<p><em>Github</em> permet d’héberger gratuitement ses pages (et donc son blog). C’est là tout l’avantage du blog statique. <a class="external" href="https://pages.github.com/">Ce lien</a> (en anglais), permet de comprendre comment s'y prendre pour héberger son blog sur <em>Github Pages</em>. Je réaliserai prochainement un guide en français pour mettre son blog <em>Narval</em> sur <em>Github Pages</em>.</p>
+<p><strong>Peer To Peer (P2P)&nbsp;:</strong></p>
+<p>Ton blog sera d’abord hébergé chez toi, puis chez toutes les personnes qui l’auront consulté. Ainsi, quand ton ordi sera éteint, les pages de ton blog resteront toujours consultables. De plus, l’espace de stockage de ton blog est sans limites. L’inconvénient actuel est que peu de monde navigue sur Internet en P2P, mais si personne ne s’y met, l’inconvénient persistera.</p>
+<p>Tout cela est encore expérimental, mais tu peux essayer <a class="external" href="https://zeronet.io/">ZeroNet</a> et <a class="external" href="https://beakerbrowser.com/">Beaker</a>.</p></div>
+</article>
+<a class="btNav" href="https://sylverstis.github.io/index.html">Accueil</a>
+
+<br><a href='theme-minival.html'>→&nbsp;Thème <em>Minival</em></a>
+
+			<footer>
+<p>
+<small>
+			Blog de SylverT, généré avec <em><a href="https://github.com/narvalblog/narval">Narval</a></em>.
+<br>
+			Dernière modification le 30 mars 2018.
+</small>
+</p>
+</footer>
+<script>
+	const
+		categories = document.getElementById('categories'),
+		pages = document.getElementById('pages'),
+		bt1 = document.getElementById('bt1'),
+		bt2 = document.getElementById('bt2')
+
+	function showCategories() {
+		categories.style.display = 'block'
+		pages.style.display = 'none'
+	}
+	function showPages() {
+		pages.style.display = 'block'
+		categories.style.display = 'none'
+	}
+	bt1.addEventListener('click', function(e) {
+		e.preventDefault()
+		showCategories()
+	}, false)
+	bt2.addEventListener('click', function(e) {
+		e.preventDefault()
+		showPages()
+	}, false)
+	bt1.addEventListener('touchstart', function(e) {
+		e.preventDefault()
+		showCategories()
+	}, false)
+	bt2.addEventListener('touchstart', function(e) {
+		e.preventDefault()
+		showPages()
+	}, false)
+</script>
+
+</div>
+</body>
+</html>
