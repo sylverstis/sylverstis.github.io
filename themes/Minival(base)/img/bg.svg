@@ -15,7 +15,7 @@
    viewBox="0 0 507.99999 285.75001"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="0.92.1 r"
    sodipodi:docname="bg.svg">
   <defs
      id="defs2">
@@ -227,7 +227,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="577.4884"
+     inkscape:cx="986.60018"
      inkscape:cy="476.07859"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -237,9 +237,9 @@
      inkscape:snap-bbox="true"
      inkscape:snap-page="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
+     inkscape:window-height="1031"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="25"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -349,12 +349,5 @@
        d="M 441.85418,132.58034 508.00001,258.8244 V 221.40475 Z"
        id="path4595"
        inkscape:connector-curvature="0" />
-    <rect
-       style="fill:#f7bba4;fill-opacity:1;fill-rule:evenodd;stroke-width:0.32404709"
-       id="rect856"
-       width="11.75986"
-       height="88.198944"
-       x="7.4835467"
-       y="-3.4109645" />
   </g>
 </svg>
