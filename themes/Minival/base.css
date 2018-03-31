@@ -189,6 +189,8 @@ p.indented { text-indent: 1em; }
 p.disc_alpha { margin-bottom: 0; }
 p.disc_inter { margin-top: 0; margin-bottom: 0; }
 p.disc_omega { margin-top: 0; }
+p.center { text-align : center; }
+
 
 sup a { text-decoration: none; }
 
