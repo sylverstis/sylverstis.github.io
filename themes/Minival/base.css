@@ -26,12 +26,12 @@ header h2 a {
 	color: #000;
 }
 header h2 a:hover {
-	color: rgb(226,41,8);
+	color: rgb(56,138,160);
 }
 header h2 a::after {
 	content: "…";
 	margin: 10px;
-	color: rgb(226,41,8);
+	color: rgb(56,138,160);
 }
 header p {
 	margin-top: 0;
@@ -97,7 +97,7 @@ article :target {
 	border-radius: 4px;
 	padding: 5px; }
 a {
-	color: rgb(226, 41, 8);
+	color: rgb(56,138,160);
 	text-decoration: none;
 }
 a.external {
@@ -197,7 +197,7 @@ li.justify { text-align : justify; }
 
 sup a { text-decoration: none; }
 
-th { background: rgb(240, 146, 146); padding: 10px; }
+th { background: rgb(54,202,197); padding: 10px; }
 
 tr:nth-child(odd) { background: #eee; }
 tr:nth-child(even) { background: #ddd; }
