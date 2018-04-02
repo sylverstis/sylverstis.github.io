@@ -2,10 +2,11 @@
 
 [Ce blog](https://sylverstis.github.io) est généré avec [**_Narval_**](https://github.com/narvalblog/narval), un générateur de blog statique et opensource.
 
-Dernière modification le **02 avril 2018 à 02:12:07**.
+Dernière modification le **02 avril 2018 à 16:06:18**.
 
-## Posts (7)
+## Posts (8)
 
+- **Expériences graphiques #2 - Souvenir d’une observation** / 10 mars 2018
 - **Expériences graphiques #1 - Image mentale** / 15 février 2018
 - **Projet 12 illustrations de personnages** / 03 janvier 2018
 - **Bilan défi dessin InkCover** / 26 décembre 2017

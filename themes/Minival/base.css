@@ -97,7 +97,7 @@ article :target {
 	border-radius: 4px;
 	padding: 5px; }
 a {
-	color: rgb(56,138,160);
+	color: rgb(126,161,48);
 	text-decoration: none;
 }
 a.external {
@@ -113,10 +113,10 @@ a:hover {
 }
 blockquote {
 	padding-left: 1em;
-	border-left: 4px solid rgba(240, 146, 146, 0.25);
+	border-left: 4px solid rgba(219,243,151, 0.25);
 }
 blockquote footer {
-	background: rgba(240, 146, 146, 0.25);
+	background: rgba(219,243,151, 0.25);
 	color: #1f2832;
 	display: inline-block;
 	padding: 5px 10px;
@@ -132,7 +132,7 @@ kbd {
 	margin: 0 5px;
 }
 pre {
-	color: rgb(21, 85, 180);
+	color: rgb(126,161,48);
 	background: #fff;
 	padding: 5px 10px;
 	border-radius: 5px;
@@ -143,7 +143,7 @@ pre code {
 	box-shadow: none;
 }
 code {
-	color: rgb(21, 85, 180);
+	color: rgb(126,161,48);
 	background: #fff;
 	padding: 3px 6px;
 	border-radius: 5px;
@@ -180,9 +180,9 @@ img {
 	display: block;
 }
 
-ins { background: #95e18d; text-decoration: none; color: #275c29; padding: 1px 2px; border-radius: 4px; }
+ins { background: #DBF397; text-decoration: none; color: #7EA130; padding: 1px 2px; border-radius: 4px; }
 
-mark { background: #21d0ff; }
+mark { background: #FFFF8A; }
 
 p { line-height: 1.3em; /* poem */ /* dialog */ }
 p.indented { text-indent: 1em; }
@@ -197,7 +197,7 @@ li.justify { text-align : justify; }
 
 sup a { text-decoration: none; }
 
-th { background: rgb(54,202,197); padding: 10px; }
+th { background: rgb(126,161,48); padding: 10px; }
 
 tr:nth-child(odd) { background: #eee; }
 tr:nth-child(even) { background: #ddd; }
@@ -207,7 +207,7 @@ td {padding: 10px; text-align: center; }
 .footnotes { /* for footnotes */ margin-top: 50px; border-top: 1px solid; padding-top: 15px; font-size: .9em; }
 .footnotes ol { padding-left: 20px; }
 .footnotes li { padding: 5px 0; }
-.footnotes :target { background: rgba(240, 146, 146, 0.25); color: #1f2832; border-radius: 4px; padding: 5px; }
+.footnotes :target { background: rgba(219,243,151, 0.25); color: #1f2832; border-radius: 4px; padding: 5px; }
 
 [aria-describedby="footnote-label"] { /* for footnotes */ counter-increment: footnotes; text-decoration: none; color: inherit; }
 
