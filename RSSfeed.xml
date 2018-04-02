@@ -4,12 +4,17 @@
 ]>
 <rss version="2.0">
 <channel>
-<title>L&#39;entropie de SylverT</title>
+<title>Carnet de bord de SylverT</title>
 <link>https://sylverstis.github.io</link>
-<description>Lieu d&#39;expiration.</description>
+<description>Lieu d&#39;expression.</description>
 <language>fr</language>
 <generator>Narval</generator>
 <ttl>120</ttl>
+<item>
+<title>Journal de bord #1</title>
+<link>https://sylverstis.github.io/journal-de-bord-1.html</link>
+<description>Journal de bord #1</description>
+</item>
 <item>
 <title>Expériences graphiques #2 - Souvenir d’une observation</title>
 <link>https://sylverstis.github.io/experiences-graphiques-2-souvenir-dune-observation.html</link>

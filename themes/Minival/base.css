@@ -113,10 +113,10 @@ a:hover {
 }
 blockquote {
 	padding-left: 1em;
-	border-left: 4px solid rgba(219,243,151, 0.25);
+	border-left: 4px solid rgba(219,243,151, 0.75);
 }
 blockquote footer {
-	background: rgba(219,243,151, 0.25);
+	background: rgba(219,243,151, 0.75);
 	color: #1f2832;
 	display: inline-block;
 	padding: 5px 10px;

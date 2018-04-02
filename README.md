@@ -1,11 +1,12 @@
-# L&#39;entropie de SylverT
+# Carnet de bord de SylverT
 
 [Ce blog](https://sylverstis.github.io) est généré avec [**_Narval_**](https://github.com/narvalblog/narval), un générateur de blog statique et opensource.
 
-Dernière modification le **02 avril 2018 à 16:15:36**.
+Dernière modification le **02 avril 2018 à 21:38:35**.
 
-## Posts (8)
+## Posts (9)
 
+- **Journal de bord #1** / 02 avril 2018
 - **Expériences graphiques #2 - Souvenir d’une observation** / 10 mars 2018
 - **Expériences graphiques #1 - Image mentale** / 15 février 2018
 - **Projet 12 illustrations de personnages** / 03 janvier 2018
@@ -15,7 +16,7 @@ Dernière modification le **02 avril 2018 à 16:15:36**.
 - **Bilan défi dessin Avril 2017** / 11 novembre 2017
 - **Brisure de masque, L’inconnue** / 12 août 2017
 
-Catégories : 2
+Catégories : 3
 
 ## Pages (1)
 
