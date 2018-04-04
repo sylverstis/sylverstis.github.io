@@ -2,7 +2,7 @@
 
 [Ce blog](https://sylverstis.github.io) est généré avec [**_Narval_**](https://github.com/narvalblog/narval), un générateur de blog statique et opensource.
 
-Dernière modification le **04 avril 2018 à 11:52:37**.
+Dernière modification le **04 avril 2018 à 12:00:52**.
 
 ## Posts (10)
 
@@ -17,7 +17,7 @@ Dernière modification le **04 avril 2018 à 11:52:37**.
 - **Bilan défi dessin Avril 2017** / 11 novembre 2017
 - **Brisure de masque, L’inconnue** / 12 août 2017
 
-Catégories : 4
+Catégories : 3
 
 ## Pages (1)
 
