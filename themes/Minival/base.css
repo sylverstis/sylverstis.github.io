@@ -193,7 +193,7 @@ p.center { text-align : center; }
 p.justify { text-align : justify; }
 p.signature {text-align: center;color: #7EA130}
 li.justify { text-align : justify; }
-
+p.mini {font-size:  0.7em}
 
 sup a { text-decoration: none; }
 
