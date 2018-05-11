@@ -2,11 +2,12 @@
 
 [Ce blog](https://sylverstis.github.io) est généré avec [**_Narval_**](https://github.com/narvalblog/narval), un générateur de blog statique et opensource.
 
-Dernière modification le **06 mai 2018 à 12:24:43**.
+Dernière modification le **11 mai 2018 à 15:19:22**.
 
-## Posts (10)
+## Posts (11)
 
-- **Défi bande dessinée Avril 2018 (En cours)** / 04 avril 2018
+- **Journal de bord #2** / 11 mai 2018
+- **Défi bande dessinée Avril 2018** / 04 avril 2018
 - **Journal de bord #1** / 02 avril 2018
 - **Expériences graphiques #2 - Souvenir d’une observation** / 10 mars 2018
 - **Expériences graphiques #1 - Image mentale** / 15 février 2018
