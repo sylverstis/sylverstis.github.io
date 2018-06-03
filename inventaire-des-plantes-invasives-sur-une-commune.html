@@ -29,9 +29,9 @@
 </ul>
 <ul class="submenu" id="categories">→
 <a style="background:rgb(178, 211, 108);" class="tag" href="https://sylverstis.github.io/dessins/index.html">Dessins</a>
-<a style="background:rgb(178, 211, 108);" class="tag" href="https://sylverstis.github.io/ecologie/index.html">Ecologie</a>
 <a style="background:rgb(178, 211, 108);" class="tag" href="https://sylverstis.github.io/ecriture/index.html">Ecriture</a>
 <a style="background:rgb(178, 211, 108);" class="tag" href="https://sylverstis.github.io/journal/index.html">Journal</a>
+<a style="background:rgb(178, 211, 108);" class="tag" href="https://sylverstis.github.io/nature/index.html">Nature</a>
 </ul>
 <ul class="submenu" id="pages">→
 <a class="tag" href="https://sylverstis.github.io/a-propos.html">À propos</a>
@@ -43,8 +43,8 @@
 <article itemscope itemtype="http://schema.org/BlogPosting">
 <header><h1>Inventaire des plantes invasives sur une commune</h1></header>
 <div class="metas">
-<time itemprop="dateCreated" datetime="2018-04-01T00:00:00.000000+00:00">01 avril 2018</time>
-					<a class="tag" style="background:rgb(178, 211, 108)" href="https://sylverstis.github.io/ecologie/index.html">Ecologie</a>
+<time itemprop="dateCreated" datetime="2018-06-03T00:00:00.000000+00:00">03 juin 2018</time>
+					<a class="tag" style="background:rgb(178, 211, 108)" href="https://sylverstis.github.io/nature/index.html">Nature</a>
 
 </div>
 <div class="content"><h2>Contexte</h2>
@@ -80,7 +80,7 @@ Ayant passé toute mon enfance dans cette commune, il m'est venu l'idée en 2017
 	<img src="attachments/posts/20180603-Carte1.jpg" alt="fond de plan">
 	<figcaption>Le fond de plan réalisé sous QGIS</figcaption>
 </figure>
-<p>Il faut savoir que les végétaux exotiques envahissants se propagent <b>préférentiellement le long des axes de circulations</b>. Les flux de matières sont des vecteurs de dissémination. C'est pour cette raison que l'on trouve énormément de ces végétaux le long de nos rivières et en bord de routes. Les <b>cours d'eau</b> transportent des fragments ou des plants vers l'aval (dans un seul sens / vecteur eau), tandis que les <b>routes</b> disséminent potentiellement dans les deux sens (vecteur : humains). Il y a aussi des zones plus ponctuels et sensibles à ces espèces qui sont les zones humides et les mares ainsi que les zones en travaux ou ayant subi des remaniements du terrain, les zones de dépôts et de "poubelles sauvages". J'ai donc choisi de <b>concentrer la prospection sur ces axes de circulation et ces points sensibles</b>. <br>
+<p>La zone d'étude représente 672ha. Il faut savoir que les végétaux exotiques envahissants se propagent préférentiellement le long des axes de circulations car les flux de matières sont des vecteurs de dissémination. C'est pour cette raison que l'on trouve énormément de ces végétaux le long de nos rivières et en bord de routes. Les cours d'eau transportent des fragments ou des plants vers l'aval (dans un seul sens / vecteur eau), tandis que les routes disséminent potentiellement dans les deux sens de l'axe (vecteur : humains). Il y a aussi des zones plus ponctuels et sensibles à ces espèces qui sont les zones humides, les mares ainsi que les zones en travaux ou récemment remaniés, les zones de dépôts et de "poubelles sauvages". J'ai donc choisi de <b>concentrer la prospection sur ces axes de circulation et ces points sensibles</b>. <br>
 Un cours d'eau temporaire est présent sur la zone d'étude mais celui-ci est en tête de bassin et donc peu sujet à la dissémination par l'amont. J'ai donc préparé des <b>circuits théoriques</b> sur la base de mon fond de plan. Ces circuits passent par les zones ponctuelless sensibles évoquées précédemment.</p>
 <p>J'ai choisi de relevés des données ponctuelles de présence de végétaux exotiques envahissants. Chaque point représentant un espace où la plante est présente de façon continue. Cette couche de données ponctuelles possède plusieurs attributs : 
 
@@ -96,7 +96,7 @@ Un cours d'eau temporaire est présent sur la zone d'étude mais celui-ci est en
 		<tr>
 			<th>0</th>
 			<td>id</td>
-			<td>Integer</td>
+			<td>Integer, 10 caractères</td>
 			<th>ID du point</th>
 			<td>42</td>
 		</tr>
@@ -117,14 +117,14 @@ Un cours d'eau temporaire est présent sur la zone d'étude mais celui-ci est en
 		<tr>
 			<th>3</th>
 			<td>longueur_m</td>
-			<td>string, 10 caractères</td>
+			<td>integer, 4 caractères</td>
 			<th>Longueur estimée en mètre</th>
 			<td>10-20m</td>
 		</tr>
 		<tr>
 			<th>4</th>
 			<td>largeur_m</td>
-			<td>string, 10 caractères</td>
+			<td>integer, 4 caractères</td>
 			<th>Largeur estimée en mètre</th>
 			<td>0-5m</td>
 		</tr>
@@ -132,13 +132,13 @@ Un cours d'eau temporaire est présent sur la zone d'étude mais celui-ci est en
 			<th>5</th>
 			<td>implantation</td>
 			<td>string, 150 caractères</td>
-			<th></th>
-			<td>Reynoutria spp.</td>
+			<th>Lieu où se situe la plante</th>
+			<td>bord de route</td>
 		</tr>
 		<tr>
 			<th>6</th>
 			<td>origineSup</td>
-			<td>string,  caractères</td>
+			<td>string, 150 caractères</td>
 			<th>Origine supposée de la contamination</th>
 			<td>remblais</td>
 		</tr>
@@ -146,24 +146,24 @@ Un cours d'eau temporaire est présent sur la zone d'étude mais celui-ci est en
 			<th>7</th>
 			<td>remarque</td>
 			<td>string, 150 caratères</td>
-			<th>Origine supposée de la contamination</th>
-			<td>remblais</td>
+			<th>Remarques diverses</th>
+			<td>à vérifier</td>
 		</tr>
 		<tr>
 			<th>8</th>
 			<td>Date</td>
 			<td>QDate, 10 caractères</td>
-			<th>Origine supposée de la contamination</th>
-			<td>remblais</td>
+			<th>Date du relevé</th>
+			<td>2018-06-01</td>
 		</tr>
 	</tbody>
 </table>
-
-Le but de ces relevés est de connaitre assez précisément la répartition géographique des différentes plantes envahissantes afin de caractériser par la suite les stades invasifs et d'évaluer des mesures de gestion appropriées. 
+<br>
+<p>Le but de ces relevés est de connaitre assez précisément la répartition géographique des différentes plantes envahissantes afin de caractériser par la suite les stades invasifs et d'évaluer des mesures de gestion appropriées. </p>
 
 
 <h2>Les relevés de terrain</h2>
-<p>Les premiers relevés ont été réalisé du 08 au 10 mai 2018. J'ai parcouru 45 km de routes et chemins et ainsi put détecter plusieurs plantes exotiques envahissantes. Je n'ai pas forcément suivi mes circuits théoriques préférant adapter mes circuits selon la météo et le temps que j'avais devant moi. J'ai utilisé une tablette Samsung Galaxy sur laquelle était installé le logiciel QGIS (<a href="https://play.google.com/store/apps/details?id=org.qgis.qgis">lien vers l'appli</a>) pour prendre des données directement sur le terrain. L'avantage de ce matériel est qu'il me localise grace au GPS, je pouvais donc afficher mon fond de plan et me localiser en temps réel. Aussi, la tablette m'a permis d'entrer directement les relevés sur le logiciel SIG, ce qui est un gain de temps lorsqu'on rentre du terrain! Voici la carte des relevés réalisés : </p>
+<p>Les premiers relevés ont été réalisé du 08 au 10 mai 2018. J'ai parcouru routes et chemins à la recherche de plantes exotiques envahissantes. Je n'ai pas forcément suivi mes circuits théoriques préférant adapter mes circuits selon la météo et le temps que j'avais devant moi. J'ai utilisé une tablette Samsung Galaxy sur laquelle était installé le logiciel QGIS (<a href="https://play.google.com/store/apps/details?id=org.qgis.qgis">lien vers l'appli</a>) pour prendre des données directement sur le terrain. L'avantage de ce matériel est qu'il me localise grace au GPS, je pouvais donc afficher mon fond de plan et me localiser en temps réel. Aussi, la tablette m'a permis d'entrer directement les relevés sur le logiciel SIG, ce qui est un gain de temps lorsqu'on rentre du terrain! Voici la carte des relevés réalisés : </p>
 <figure>
 	<img src="attachments/posts/20180603-Carte2.jpg" alt="carte des reelvés">
 	<figcaption>Carte des premiers relevés des végétaux exotiques envahissants</figcaption>
@@ -172,7 +172,7 @@ Le but de ces relevés est de connaitre assez précisément la répartition géo
 	<img src="attachments/posts/20180603-exempleRelevés.jpg" alt="exemple de relevés">
 	<figcaption>Exemples de relevés réalisés</figcaption>
 </figure>
-<p>Les relevés se sont bien déroulés. Chaque plante exotique rencontrée a été inscrite sur la tablette, j'ai pris des photos et annoté quelques remarques. Certaines plantes m'ont posé des problèmes pour les identifier. J'ai donc pris des échantillons que j'ai identifiés en rentrant du terrain. Pour celle où j'ai encore des doutes, j'ai inscrit un "?" et je repasserais dans quelques semaines pour mieux les identifier. </p>
+<p>En trois jours et 45 km de routes et chemins parcourus, j'ai pu relever 49 données ponctuelles dont 11 points restent à vérifier. Chaque plante exotique rencontrée a été inscrite sur la tablette, j'ai pris des photos de chaque massif et annoté quelques remarques. Certaines plantes m'ont posé des problèmes pour les identifier. J'ai donc pris des échantillons que j'ai chercher à reconnaitre en rentrant du terrain. Pour les points où j'ai encore des doutes, j'ai inscrit un "?" et je repasserais dans quelques semaines pour mieux les identifier. </p>
 
 
 <h2>la suite</h2>
@@ -197,7 +197,7 @@ Le but de ces relevés est de connaitre assez précisément la répartition géo
 <script>
 				var disqus_config = function () {
 					this.page.url = "https://sylverstis.github.io/inventaire-des-plantes-invasives-sur-une-commune.html";
-					this.page.identifier = "2018-04-01T00:00:00.000000+00:00";
+					this.page.identifier = "2018-06-03T00:00:00.000000+00:00";
 				};
 				(function() {  // DON'T EDIT BELOW THIS LINE
 					var d = document, s = d.createElement('script');
@@ -209,8 +209,7 @@ Le but de ces relevés est de connaitre assez précisément la répartition géo
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by <em>Disqus</em>.</a></noscript>
 <a class="btNav" href="https://sylverstis.github.io/index.html">Accueil</a>
 
-<br><a href='journal-de-bord-1.html'>→&nbsp;Journal de bord #1</a>
-<br><a href='experiences-graphiques-2-souvenir-dune-observation.html'>←&nbsp;Expériences graphiques #2 - Souvenir d’une observation</a>
+<br><a href='journal-de-bord-2.html'>←&nbsp;Journal de bord #2</a>
 
 			<footer>
 <p>
