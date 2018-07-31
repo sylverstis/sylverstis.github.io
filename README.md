@@ -2,10 +2,11 @@
 
 [Ce blog](https://sylverstis.github.io) est généré avec [**_Narval_**](https://github.com/narvalblog/narval), un générateur de blog statique et opensource.
 
-Dernière modification le **05 juillet 2018 à 07:56:35**.
+Dernière modification le **31 juillet 2018 à 21:53:48**.
 
-## Posts (14)
+## Posts (15)
 
+- **Travail photographique** / 31 juillet 2018
 - **Quelques dessins d&#39;observation de Juin 2018** / 01 juillet 2018
 - **Quelques croquis urbains** / 01 juillet 2018
 - **Relevé des plantes exotiques envahissantes sur une commune** / 03 juin 2018
@@ -21,7 +22,7 @@ Dernière modification le **05 juillet 2018 à 07:56:35**.
 - **Bilan défi dessin Avril 2017** / 11 novembre 2017
 - **Brisure de masque, L’inconnue** / 12 août 2017
 
-Catégories : 4
+Catégories : 5
 
 ## Pages (1)
 
