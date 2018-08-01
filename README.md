@@ -2,11 +2,11 @@
 
 [Ce blog](https://sylverstis.github.io) est généré avec [**_Narval_**](https://github.com/narvalblog/narval), un générateur de blog statique et opensource.
 
-Dernière modification le **31 juillet 2018 à 21:53:48**.
+Dernière modification le **02 août 2018 à 00:24:26**.
 
 ## Posts (15)
 
-- **Travail photographique** / 31 juillet 2018
+- **Travail photographique Côte d&#39;Azur** / 31 juillet 2018
 - **Quelques dessins d&#39;observation de Juin 2018** / 01 juillet 2018
 - **Quelques croquis urbains** / 01 juillet 2018
 - **Relevé des plantes exotiques envahissantes sur une commune** / 03 juin 2018
