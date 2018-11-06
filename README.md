@@ -2,10 +2,11 @@
 
 [Ce blog](https://sylverstis.github.io) est généré avec [**_Narval_**](https://github.com/narvalblog/narval), un générateur de blog statique et opensource.
 
-Dernière modification le **07 août 2018 à 18:50:30**.
+Dernière modification le **06 novembre 2018 à 22:27:21**.
 
-## Posts (15)
+## Posts (16)
 
+- **Inktober 2018** / 04 novembre 2018
 - **Quelques photographies de la côte d&#39;Azur** / 31 juillet 2018
 - **Quelques dessins d&#39;observation de Juin 2018** / 01 juillet 2018
 - **Quelques croquis urbains** / 01 juillet 2018
