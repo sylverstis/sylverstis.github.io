@@ -2,11 +2,11 @@
 
 [Ce blog](https://sylverstis.github.io) est généré avec [**_Narval_**](https://github.com/narvalblog/narval), un générateur de blog statique et opensource.
 
-Dernière modification le **10 mars 2019 à 13:19:57**.
+Dernière modification le **10 mars 2019 à 17:02:41**.
 
 ## Posts (18)
 
-- **Un dessin à partir d&#39;une musique - Créacover 2019** / 09 mars 2019
+- **Un dessin à partir d&#39;une musique - Créacover** / 09 mars 2019
 - **Quelques dessins numériques et aquarelles** / 12 janvier 2019
 - **Inktober 2018** / 04 novembre 2018
 - **Quelques photographies de la côte d&#39;Azur** / 31 juillet 2018
