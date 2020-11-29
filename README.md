@@ -2,10 +2,13 @@
 
 [Ce blog](https://sylverstis.github.io) est généré avec [**_Narval_**](https://github.com/narvalblog/narval), un générateur de blog statique et opensource.
 
-Dernière modification le **12 mars 2019 à 23:34:12**.
+Dernière modification le **29 novembre 2020 à 22:09:07**.
 
-## Posts (18)
+## Posts (21)
 
+- **Le temps d&#39;un souvenir** / 29 novembre 2020
+- **Inktober 2020** / 01 novembre 2020
+- **Créations à partir d&#39;une musique - Créacover 2020** / 15 mars 2020
 - **Un dessin à partir d&#39;une musique - Créacover** / 09 mars 2019
 - **Quelques dessins numériques et aquarelles** / 12 janvier 2019
 - **Inktober 2018** / 04 novembre 2018
@@ -25,7 +28,7 @@ Dernière modification le **12 mars 2019 à 23:34:12**.
 - **Bilan défi dessin Avril 2017** / 11 novembre 2017
 - **Brisure de masque, L’inconnue** / 12 août 2017
 
-Catégories : 5
+Catégories : 6
 
 ## Pages (1)
 
